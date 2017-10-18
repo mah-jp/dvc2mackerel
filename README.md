@@ -1,8 +1,8 @@
-# dvc2mackerel.pl - ドトールバリューカード (Dotour Value Card) の残高・ポイント数をMackerelに投稿するPerlスクリプト
+# dvc2mackerel.pl - ドトールバリューカード (Doutor Value Card) の残高・ポイント数をMackerelに投稿するPerlスクリプト
 
 ## What is this?
 
-このPerlスクリプトは、プリペイドカードの一種である、ドトールバリューカード (Dotour Value Card) の残高・ポイント数を、サーバ管理・監視ツールの[Mackerel](https://mackerel.io/ja/)に投稿します。
+このPerlスクリプトは、プリペイドカードの一種である、ドトールバリューカード (Doutor Value Card) の残高・ポイント数を、サーバ管理・監視ツールの[Mackerel](https://mackerel.io/ja/)に投稿します。
 
 私があまりにもドトールに通いすぎてDVCチャージを頻繁に行うので、残高・ポイント数の変動を可視化してみたくて作りました。
 
@@ -10,7 +10,7 @@
 
 1. git clone https://github.com/mah-jp/dvc2mackerel
 2. dvc2mackerel.ini を編集する
-3. テストとして ``$ dvc2mackerel.pl -j`` を実行して、ドトールバリューカード (Dotour Value Card) の残高・ポイント数が標準出力されることを確認する
+3. テストとして ``$ dvc2mackerel.pl -j`` を実行して、ドトールバリューカード (Doutor Value Card) の残高・ポイント数が標準出力されることを確認する
 4. たとえば次のようなcronを設定すると、毎時00分と30分に、Mackerelにデータが投稿されるようになります
 
 ```
