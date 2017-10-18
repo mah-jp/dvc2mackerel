@@ -13,7 +13,7 @@
 3. テストとして ``$ dvc2mackerel.pl -j`` を実行して、ドトールバリューカード (Dotour Value Card) の残高・ポイント数が標準出力されることを確認する
 4. たとえば次のようなcronを設定すると、毎時00分と30分に、Mackerelにデータが投稿されるようになります
 
-> 0,30 * * * * curl https://api.mackerelio.com/api/v0/services/+++++YOUR-API-URL+++++ -H 'X-Api-Key: +++++YOUR-API-KEY+++++' -H 'Content-Type: application/json' -X POST -d "$(/path/to/dvc2mackerel.pl -i /path/to/dvc2mackerel.ini -j)"
+  0,30 * * * * curl https://api.mackerelio.com/api/v0/services/+++++YOUR-API-URL+++++ -H 'X-Api-Key: +++++YOUR-API-KEY+++++' -H 'Content-Type: application/json' -X POST -d "$(/path/to/dvc2mackerel.pl -i /path/to/dvc2mackerel.ini -j)"
 
 ## AUTHOR
 
