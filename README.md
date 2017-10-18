@@ -2,7 +2,7 @@
 
 ## What is this?
 
-このPerlスクリプトは、プリペイドカードの一種である、[ドトールバリューカード (Doutor Value Card)](http://doutor.jp/) の残高・ポイント数を、サーバ管理・監視ツールの[Mackerel](https://mackerel.io/ja/)に投稿します。
+このPerlスクリプトは、プリペイドカードの一種である、[ドトールバリューカード (Doutor Value Card)](http://doutor.jp/) の残高・ポイント数を、クロールして取得し、サーバ管理・監視ツールの[Mackerel](https://mackerel.io/ja/)に投稿します。
 
 私があまりにもドトールに通いすぎてDVCチャージを頻繁に行うので、残高・ポイント数の変動を可視化してみたくて作りました。
 
