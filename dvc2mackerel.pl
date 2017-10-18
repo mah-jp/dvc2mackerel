@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 # dvc2mackerel.pl (Ver.20171018) by Masahiko OHKUBO
-# usage: dvc2mackerel.pl [-i INIFILE] [-u URL] [-c CHARSET] [-n CARDNUMBER] [-p PASSWORD] [-v]
+# usage: dvc2mackerel.pl [-i INIFILE] [-u URL] [-c CHARSET] [-n CARDNUMBER] [-p PASSWORD] [-j]
 
 use strict;
 use warnings;
